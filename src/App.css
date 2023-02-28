@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	max-width: 100vw;
+}
+body {
+	width: 100vw;
+	overflow-x: hidden;
+	max-width: 100vw;
+	background: url(./assets/Background2.png);
+	/* background-size: 300% 300%; */
+	/* animation: gradient-bg 17s ease infinite; */
+	/* height: 100vh;
+	background-attachment: fixed; */
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+@keyframes gradient-bg {
+	0% {
+		background-position: 80% 80%;
+	}
+	25% {
+		background-position: 70% 70%;
+	}
+	50% {
+		background-position: 50% 10%;
+	}
+	75% {
+		background-position: 20% 40%;
+	}
+	85% {
+		background-position: 50% 60%;
+	}
+	100% {
+		background-position: 80% 80%;
+	}
+}
+body::-webkit-scrollbar{
+	display: none;
+}

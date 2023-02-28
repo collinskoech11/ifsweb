@@ -1,0 +1,90 @@
+.team-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width:1000px) {
+    .team-main {
+        grid-template-columns: 1fr;
+    }
+}
+
+.team-dspl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: auto;
+}
+
+@media screen and (max-width:1000px) {
+    .team-dspl {
+        grid-template-columns: 1fr;
+    }
+}
+
+.member {
+    width: 90%;
+    margin: auto;
+}
+
+.team-desc {
+    width: 80%;
+    margin: auto;
+}
+
+@media screen and (max-width:1000px) {
+    .team-desc {
+        margin-bottom: 50px;
+    }
+}
+
+.team-desc h3 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+    color: #fff;
+}
+
+.team-desc p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ADC8EA;
+}
+
+.member .member-sq {
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.member p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    margin-bottom: 20px;
+    color: #ADC8EA;
+    text-align: center;
+}
+
+.wrap img {
+    width: 250px;
+
+}
+
+.wrap {
+    width: 250px;
+    height: 200px;
+    height: auto;
+    border: 8px solid #1D5BA9;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: auto;
+}
