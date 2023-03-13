@@ -1,19 +1,20 @@
 .main-nav{
     display:grid;
-    padding:15px;
+    padding:0 150px ;
     grid-template-columns: 6fr 3fr;
-    width:80%;
+    width:100%;
     margin:auto;
     height: 13vh;
     align-items: center;
-    justify-content: center;
-    backdrop-filter: blur(10px);
-    /* backdrop-filter: sepia(60%); */
     border-radius: 5px;
-    /* position:fixed; */
+    background:rgba(29, 91, 169, 0.19);
     left:10%;
     z-index: 100;
-    /* text-align: center; */
+}
+@media screen and (max-width:1000px){
+    .main-nav{
+        padding :0 20px;
+    }
 }
 .main-nav h1, a{
     color:#fff;

@@ -40,19 +40,20 @@ function Footer() {
         <div className="footer-text">
           <img src={ifsLogo} alt="footer titling" />
           <br/><br/><br/>
-          <p>
+          <p style={{maxWidth:"600px"}}>
             Our organisation takes pride in its collaborative approach and
-            constant<br/> devotion to its clients. We collaborate with you every step
-            of the process,<br/> giving exceptional assistance and support. You can
-            be certain that your<br/> franchise journey will be a success with us on
+            constant devotion to its clients. We collaborate with you every step
+            of the process, giving exceptional assistance and support. You can
+            be certain that your franchise journey will be a success with us on
             your side.
           </p>
         </div>
         <div className="footer-links">
           <h3>Company</h3><br/><br/><br/>
-          <h3><Link>Contact us</Link></h3><br/>
-          <h3 className="web"><Link onClick={handleClickScrollAbout}>About Us</Link></h3><br/>
+          
           <h3 className="mobile"><Link onClick={handleClickScrollAboutMobile}>About Us</Link></h3><br/>
+          {/* <h3><Link>Contact us</Link></h3><br/> */}
+          <h3 className="web"><Link onClick={handleClickScrollAbout}>About Us</Link></h3><br/>
           <h3><Link onClick={handleClickScrollServices}>Services</Link></h3><br/>
           <h3><Link onClick={handleClickScrollTeam}>Team</Link></h3><br/>
           <div className="footer-png">

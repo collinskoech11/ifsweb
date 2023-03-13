@@ -38,13 +38,13 @@ function NavBar() {
       <div className="main-nav">
         <img src={ifslogo} alt="ifs nav logo" style={{ width: "100px"}} />
         <div className="hidden">
-          <Link onClick={handleClickScrollAbout}>
+          <Link onClick={handleClickScrollAbout} to="/">
             <h3>About</h3>
           </Link>
-          <Link onClick={handleClickScrollServices}>
+          <Link onClick={handleClickScrollServices} to="/">
             <h3>Services</h3>
           </Link>
-          <Link onClick={handleClickScrollTeam}>
+          <Link onClick={handleClickScrollTeam} to="/">
             <h3>Team</h3>
           </Link>
         </div>

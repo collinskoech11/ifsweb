@@ -18,20 +18,14 @@
 
 .hero-main h2 {
     font-weight: 700;
-    font-size: 3vw;
+    font-size: 4vw;
     line-height: 68px;
     font-family: Arial,
         Helvetica, sans-serif;
-    background: linear-gradient(to right, #ADC8EA, #ADC8EA);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip:text;
+        color: #ADC8EA;
 }
 .hero-main h2 span{
-    background: linear-gradient(to right, #1D5BA9, #ADC8EA);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip:text;
+    color: #ADC8EA;
 }
 
 

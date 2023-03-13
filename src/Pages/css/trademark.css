@@ -31,20 +31,24 @@
 }
 .trademark-sub-container {
     margin: auto;
-    width:100%;
-    margin-bottom: 50px;
+    width:90%;
+    margin-bottom: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    text-align: center;
 }
 
 .trademark-sub-image {
     margin: auto;
+    
 }
 
 .trademark-sub-container h2 {
     color: #fff;
     padding: 0;
     font-size: 30px;
+    margin-top:20px;
+    margin-bottom: 20px;
 }
 
 .trademark-sub-container p {
